@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <table align="center" cellpadding="15">
+        <tr>
+            <th> <font size="6"> HTML Forms </font> </th>
+            <th> <a href="photo.html"> Our Project </a> </th>
+            <th> <a href="contact.html"> Contact Us </a> </th>
+            <th> <a href="register.html"> Create Account </a> </th>
+            <th> <a href="login.html"> Login </a> </th>
+        </tr>
+    </table>
+
+    <hr color="orange" size="5"/>
+
+    <form action="save.php" method="post">
+        <table align="center" cellpadding="15">
+             <caption>
+                <h1> Contact Us </h1>
+                <font color="red"> * Marked Fields are mandatory </font>
+             </caption>
+             <tr>
+                <th> Full Name <font color="red"> * </font> </th>
+                <td> 
+                    <input type="text" placeholder="enter your name" name="fname" tabindex="1" maxlength="30" size="47" required/> 
+                </td>
+             </tr>
+             <tr>
+                <th> Mobile No <font color="red"> * </font> </th>
+                <td> 
+                    <input type="number" placeholder="enter your mobile no" name="mymobile" tabindex="2" required/> 
+                </td>
+             </tr>
+             <tr>
+                <th> Email </th>
+                <td> <input type="email" placeholder="enter your email id" name="myemail" size="47"/> </td>
+             </tr>
+             <tr>
+                <th> Your Message <font color="red"> * </font> </th>
+                <td> 
+                    <textarea 
+                    placeholder="enter your message" 
+                    rows="10" 
+                    cols="50" 
+                    name="mymsg" 
+                    tabindex="3" 
+                    maxlength="100" 
+                    required></textarea> 
+                </td>
+             </tr>
+             <tr>
+                <th colspan="2">
+                    <button type="submit"> Send Message </button>
+                    <button type="reset"> Clear </button>
+                </th>
+             </tr>
+        </table>
+    </form>
+</body>
+</html>

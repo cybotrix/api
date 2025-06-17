@@ -1,0 +1,158 @@
+HTML - hypertext markup language 
+       it has collections of pre-defined tags.
+       it use to create basic structure of webpage.
+       the html tags use to collect input from user using input tags 
+       html tags use to display different type of output to use using output tags 
+       The html tags has limited property and values due to this limitations CSS, js required.
+
+
+How it work ?
+    Responsive Webpage = HTML(tags) + CSS(property & value)
+
+    Responsive & Dynamic Webpage = HTML(tags) + CSS(property & value) + javascript(processing the input)
+
+Tags ?
+    <> - open tag 
+    </> - close tag 
+
+Type of tags in html ?
+    1. input tags  - it collect input from user via web browser 
+    2. output tags - it display output to user via web browser 
+
+Structure wise 
+    1. dependent tag / paired tag 
+        example 
+            <html>
+                <body>
+                    <h1> hi </h1>
+                </body>
+            </html>
+        Note - those html tags, that open and close seprate 
+
+    2. independent tag / un-paired  tag 
+        example 
+            <br>
+            <img>
+            <hr>
+        Note - those html tags, that has only open 
+        it do not support in react jsx 
+
+    3. self closing tag 
+        example 
+            <br/>
+            <img/>
+            <hr/>
+        Note - those html tags, that open and close together
+            it work with all technologies
+
+Behavior of html tags 
+    1. block level tag 
+        ->those html tags that print output always in new line 
+    2. inline tag 
+        ->those html tags that print output in same line - side by side
+---------------------------------------------------------------------------
+what are valid extension of html document ?
+    .html 
+    .htm 
+---------------------------------------------------------------------------
+What are Behavior of html tag ?
+    ->according to html, all the tags having two type of Behavior
+        1. block level - it print statement in new line 
+        2. inline - it print statement in same line. 
+---------------------------------------------------------------------------
+Type of list in html ?
+    1. UL - unorder list 
+    2. OL - order list 
+    3. DL - definition list 
+
+    =>Type of UL 
+        1. disc 
+        2. square 
+        3. circle
+        4. none 
+
+    =>Type of ol 
+        1. 1 
+        2. A 
+        3. c 
+        4. I 
+        5. i 
+---------------------------------------------------------------------------
+    Table in html 
+      =>table 
+          ->caption
+          ->tr - table row 
+              ->th - table heading 
+              ->td - table data 
+
+      =>table 
+          ->thead
+              ->tr 
+                 ->th  
+          ->tbody
+              ->tr 
+                 ->td 
+          ->tfoot
+              ->tr 
+                  ->td 
+
+   List of property in table , tr, th, td, thead, tbody, tfoot 
+        ->align (left, center, right)
+        ->valign (top, middle, bottom)
+        ->border 
+        ->bordercolor
+        ->cellpadding - it apply space inside th, td 
+        ->cellspacing - it apply space outside th, td 
+        ->colspan - it combine space of 2 or more th or td - left to right 
+        ->rowspan - it combine space or 2 or more th or td - top to bottom 
+        ->bgcolor - it set background color for table, tr, th, td 
+        ->width - 
+        ->height - 
+
+
+    How to link the pages in html ?
+        <a href="nextfilepath"> Some Text To Click </a> 
+
+    List of input tags ?
+        ->text  - take 1 line input
+        ->number  - take 1 line input
+        ->email  - take 1 line input
+        ->password  - take 1 line input 
+        ->textarea - it collect multiple line input from user      
+        ->select   - choose from given option 
+        ->file     - to uploadad any file 
+        ->checkbox - to check multiple option from given 
+        ->radio    - to choose any one option from given 
+        ->button 
+            ->submit - it work without js 
+            ->reset - it work without js 
+            ->button - it work with js 
+
+    List of property in input element
+        ->placeholder - it is for input guidance
+        ->maxlength - it limit the input  (set as how many char the user can enter) applicable in 
+                      text, email, password, textarea, select 
+        ->tabindex  - it set sequence for cursor move, by default tab index is ascending order 
+        ->size - it reset width of (text, email, password)
+        ->rows - it re-size height of textarea
+        ->cols - it re-size width of textarea
+        
+
+
+    user =>html=> backend( php/python/node/java/.net )=>Database(for store) 
+    get - it pass data from client to server via url and its fully visible - lead to unsecure
+    post - it pass data from client to server in hidden and encoded - fully secure communication
+
+    
+    put - it send request to server to update in db modified and non modified both value
+    patch - it send request to server to update in db only modified value
+    delete - it send request to server for delete a specific record 
+
+
+    name, 
+    email,
+    mobile, 
+    city, - old - banagalore - new pune 
+    exp 
+    
+---------------------------------------------------------------------------
