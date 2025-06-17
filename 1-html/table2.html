@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center"> Table, thead, tbody, tfoot, colspan, rowspan </h1>
+
+    <p align="center">
+        <a href="table1.html"> Go Back </a>
+    </p>
+
+    <table align="center" border="10" bordercolor="red" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr bgcolor="orange">
+                <th> Emp id </th>
+                <th> Full Name </th>
+                <th> Department </th>
+                <th> City </th>
+                <th> Reporting To </th>
+                <th> Joining Date </th>
+                <th> Project </th>
+                <th> Client </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 01 </td>
+                <td> Mr. Alex </td>
+                <td> Marketing </td>
+                <td> Bangalore </td>
+                <td rowspan="2"> Mr. Sumit </td>
+                <td rowspan="3"> 20 / 06 / 2022 </td>
+                <td rowspan="2"> Leads Management </td>
+                <td rowspan="4" valign="middle" bgcolor="skyblue"> Firstenquiry </td>
+            </tr>
+            <tr bgcolor="purple">
+                <td> 02 </td>
+                <td> Mr. Punit </td>
+                <td> Sales </td>
+                <td> Chennai </td>
+            </tr>
+            <tr>
+                <td> 03 </td>
+                <td> Suraj </td>
+                <td> IT Development </td>
+                <td> Bangalore </td>
+                <td> Ajit </td>
+                <td rowspan="2"> CRM Development </td>
+            </tr>
+            <tr>
+                <td> 04 </td>
+                <td> Mohan jee </td>
+                <td colspan="4"> HR </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="lightgrey">
+                <th> Emp id </th>
+                <th> Full Name </th>
+                <th> Department </th>
+                <th> City </th>
+                <th> Reporting To </th>
+                <th> Joining Date </th>
+                <th> Project </th>
+                <th> Client </th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
